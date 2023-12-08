@@ -1,4 +1,4 @@
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
@@ -24,4 +24,20 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+} */
+
+.ant-btn-default{
+  background-color: rgb(133, 227, 25);
+  margin: 20px;
+}
+
+.test {
+  justify-content: center;
+  align-items: center;
+  margin: 0 20% 0 20%;
+}
+
+.test img {
+  max-width: 100%; /* ให้ภาพไม่เกินขอบของพื้นที่ที่กำหนด */
+  max-height: 100%; /* ให้ภาพไม่เกินขอบของพื้นที่ที่กำหนด */
 }
